@@ -14,7 +14,7 @@ namespace WebApplication1
         {
             SecurityProtocolType s = ServicePointManager.SecurityProtocol;
 
-            Label1.Text = "ServicePointManager.SecurityProtocol: " + ServicePointManager.SecurityProtocol.ToString();
+            Label1.Text = "ServicePointManager.SecurityProtocol : " + ServicePointManager.SecurityProtocol.ToString();
         }
     }
 }
